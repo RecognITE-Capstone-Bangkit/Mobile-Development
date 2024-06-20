@@ -24,23 +24,19 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/RecognITE-Capstone-Bangkit/Mobile-Development.git
-   ```sh
 2. **Open the project in Android Studio**:
    ```sh
    - Open Android Studio.
    - Select Open an existing project.
    - Navigate to the cloned repository and select the Mobile-Development directory.
-   ```sh
 3. **Build the project**:
    ```sh
    - Ensure that all the required dependencies are installed.
    - Click on Build in the top menu and select Make Project.
-   ```sh
 4. **Run the Project**:
    ```sh
    - Connect an Android device or start an emulator.
    - Click on the Run button or select Run > Run 'app' from the menu.
-   ```sh
 
 ### Usage
 
