@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_crop"
+        android:icon="@drawable/ic_crop"
+        android:title="@string/crop" />
+    <item
+        android:id="@+id/navigation_rotate"
+        android:icon="@drawable/ic_rotate"
+        android:title="@string/rotate" />
+
+    <item
+        android:id="@+id/navigation_flip"
+        android:icon="@drawable/ic_flip_24"
+        android:title="@string/flip" />
+
+    <item
+        android:id="@+id/navigation_contrast"
+        android:icon="@drawable/ic_contrast"
+        android:title="@string/contrast" />
+
+    <item
+        android:id="@+id/navigation_brightness"
+        android:icon="@drawable/ic_brightness"
+        android:title="@string/brightness" />
+</menu>

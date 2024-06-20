@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RecognITE</string>
+    <string name="btn_paste">Paste the Comment</string>
+    <string name="crop">crop</string>
+    <string name="rotate">rotate</string>
+    <string name="contrast">contrast</string>
+    <string name="brightness">brightness</string>
+    <string name="flip">flip</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="paste_your_text_here">Paste your text here</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="result">Result</string>
+    <string name="save">Save</string>
+    <string name="result_text">Result: %s</string>
+    <string name="pasal_27_ayat_3">Pasal 27 ayat (3) Pasal ini mengatur tentang larangan mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya informasi elektronik dan/atau dokumen elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik. Ketentuan ini termasuk dalam delik aduan, yang berarti tindakan hukum hanya dapat dilakukan jika ada pengaduan dari pihak yang merasa dirugikan. Penerapan pasal ini sering menimbulkan kontroversi karena berpotensi disalahgunakan, sehingga revisi dan pembicaraan lebih lanjut tentang penerapannya telah dilakukan (Kemkominfo RI) (Ditjen Aptika).</string>
+    <string name="pasal_28_ayat_2">Pasal 28 ayat (2) Pasal ini melarang setiap orang untuk menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antar golongan (SARA). Pasal ini bertujuan untuk mencegah tindakan yang dapat memicu konflik dan menjaga kerukunan masyarakat. Penegakan pasal ini juga memerlukan kehati-hatian untuk menghindari salah penerapan (Database Peraturan | JDIH BPK)</string>
+    <string name="pasal_27_ayat_2">Pasal 27 ayat (2) Pasal ini mengatur larangan mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya informasi elektronik dan/atau dokumen elektronik yang memiliki muatan perjudian. Pelanggaran terhadap ketentuan ini dapat dikenai sanksi pidana. Tujuannya adalah untuk mengurangi penyebaran konten perjudian yang dapat merugikan masyarakat dan mengganggu ketertiban umum (Database Peraturan | JDIH BPK)</string>
+    <string name="uu_ite">UU ITE</string>
+    <string name="learn_more_about_uu_ite">Learn More About UU ITE   </string>
+    <string name="crop_image_view">Crop Image View</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="text_prediction">Text Prediction</string>
+    <string name="text_predict_desc">Masukkan kalimat untuk prediksi \npelanggaran</string>
+    <string name="start">Start</string>
+    <string name="image_prediction">Image Prediction</string>
+    <string name="image_predict_desc">Masukkan gambar untuk prediksi \npelanggaran</string>
+    <string name="welcome">Welcome to \n RecogniTE</string>
+    <string name="welcome_desc">Empowering Safe Digital Spaces</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="Delete">Hapus Bookmark</string>
+    <string name="delete_desc">Apakah Anda yakin ingin menghapus bookmark ini?</string>
+    <string name="No">Tidak</string>
+    <string name="Yes">Ya</string>
+
+</resources>

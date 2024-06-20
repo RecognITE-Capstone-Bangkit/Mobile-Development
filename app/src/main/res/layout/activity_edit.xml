@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".edit.EditActivity">
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/btnCrop"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Selected Image" />
+
+    <Button
+        android:id="@+id/btnCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@color/primary"
+        android:background="@drawable/rounded_button_background"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bai"
+        android:textStyle="bold"
+        android:text="@string/crop_image" />
+
+</RelativeLayout>

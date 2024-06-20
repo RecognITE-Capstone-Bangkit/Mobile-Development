@@ -1,0 +1,74 @@
+<!-- res/layout/dialog_result_neutral.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_delete"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/alertIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_notifications_active_24"/>
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bai"
+        android:text="@string/Delete"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bai"
+        android:layout_marginTop="16dp"
+        android:text="@string/delete_desc"
+        android:textColor="@color/secondary"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/buttonNotNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/rounded_button_background"
+            android:fontFamily="@font/bai"
+            android:text="@string/No"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@color/secondary" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/rounded_button_secondary"
+            app:backgroundTint="@color/primary"
+            android:fontFamily="@font/bai"
+            android:text="@string/Yes"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+

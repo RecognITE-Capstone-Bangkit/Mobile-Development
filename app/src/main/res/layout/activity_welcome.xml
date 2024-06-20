@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:fontFamily="@font/bai"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:id="@+id/choose_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_desc"
+        android:fontFamily="@font/bai"
+        android:textColor="@color/primary"
+        android:layout_below="@id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/let_s_get_started"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/bai"
+        android:textStyle="bold"
+        app:backgroundTint="@color/primary"
+        android:background="@drawable/rounded_button_background"
+        android:layout_below="@id/choose_option_text"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+
+
+</RelativeLayout>
